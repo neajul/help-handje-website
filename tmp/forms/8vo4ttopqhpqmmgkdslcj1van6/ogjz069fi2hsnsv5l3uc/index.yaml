@@ -1,0 +1,18 @@
+form: contact
+unique_id: ogjz069fi2hsnsv5l3uc
+url: 'http://localhost:8888/Mokum/4%20help%20handje/help%20handje%20website/'
+user: null
+timestamps:
+  created: 1638975385
+  updated: 1638975385
+data: null
+files:
+  my_files:
+    external-content.duckduckgo.com.jpg:
+      name: external-content.duckduckgo.com.jpg
+      type: image/jpeg
+      tmp_name: phpKtezPo
+      size: 295345
+      path: user/pages/01.home/files/external-content.duckduckgo.com.jpg
+  my_files/original:
+    external-content.duckduckgo.com.jpg: null

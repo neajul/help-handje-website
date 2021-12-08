@@ -1,0 +1,18 @@
+form: contact
+unique_id: 5fpos8c9jq3eijlr1keq
+url: 'http://localhost:8888/Mokum/4%20help%20handje/help%20handje%20website/home'
+user: null
+timestamps:
+  created: 1638974021
+  updated: 1638974021
+data: null
+files:
+  my_files:
+    IMG_5118.jpeg:
+      name: IMG_5118.jpeg
+      type: image/jpeg
+      tmp_name: php6JjbHt
+      size: 277463
+      path: user/pages/01.home/IMG_5118.jpeg
+  my_files/original:
+    IMG_5118.jpeg: null

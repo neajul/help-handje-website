@@ -1,0 +1,30 @@
+enabled: true
+from: info@lukasengelhardt.net
+from_name: LE
+to: lukas@droesser.net
+to_name: LE
+queue:
+  enabled: false
+  flush_frequency: '* * * * *'
+  flush_msg_limit: 10
+  flush_time_limit: 100
+mailer:
+  engine: smtp
+  smtp:
+    server: nx04.webspezi.com
+    port: null
+    encryption: none
+    user: info@lukasengelhardt.net
+    password: Netscape91;
+    auth_mode: null
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false
+charset: null
+cc: null
+cc_name: null
+bcc: null
+reply_to: null
+reply_to_name: null
+body: null

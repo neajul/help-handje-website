@@ -1,0 +1,18 @@
+form: contact
+unique_id: spkqdr4d8uo3iom9erp6
+url: 'http://localhost:8888/Mokum/4%20help%20handje/help%20handje%20website/'
+user: null
+timestamps:
+  created: 1638975478
+  updated: 1638975478
+data: null
+files:
+  my_files:
+    IMG_5124.jpeg:
+      name: IMG_5124.jpeg
+      type: image/jpeg
+      tmp_name: phpatYKEK
+      size: 143352
+      path: user/pages/01.home/files/IMG_5124.jpeg
+  my_files/original:
+    IMG_5124.jpeg: null

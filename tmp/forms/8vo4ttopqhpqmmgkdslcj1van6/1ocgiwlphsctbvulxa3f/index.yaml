@@ -1,0 +1,20 @@
+form: contact
+unique_id: 1ocgiwlphsctbvulxa3f
+url: 'http://localhost:8888/Mokum/4%20help%20handje/help%20handje%20website/home'
+user: null
+timestamps:
+  created: 1638974483
+  updated: 1638974488
+data: null
+files:
+  my_files:
+    IMG_5118.jpeg: null
+    IMG_5123.jpeg:
+      name: IMG_5123.jpeg
+      type: image/jpeg
+      tmp_name: phpFfetZV
+      size: 160530
+      path: 'user://data/contact/IMG_5123.jpeg'
+  my_files/original:
+    IMG_5118.jpeg: null
+    IMG_5123.jpeg: null
