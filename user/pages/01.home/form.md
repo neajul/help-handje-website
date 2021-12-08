@@ -34,7 +34,7 @@ form:
           validate:
             required: false
 
-        honey:
+        honeypot:
           type: honeypot
 
         my_files:
