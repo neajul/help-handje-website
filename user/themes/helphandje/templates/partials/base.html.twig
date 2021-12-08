@@ -5,8 +5,6 @@
     <meta charset="utf-8" />
     <title>{% if header.title %}{{ header.title|e }} | {% endif %}{{ site.title|e }}</title>
 
-    <script src='https://www.hCaptcha.com/1/api.js' async defer></script>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include 'partials/metadata.html.twig' %}
@@ -35,7 +33,6 @@
 {% block body %}
     <section id="body">
         <div class="wrapper padding">
-        {{ hcaptcha() }}
         {% block content %}{% endblock %}
         </div>
     </section>
