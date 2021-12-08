@@ -16,7 +16,7 @@ form:
         email:
           label: Contact Detail (optional, anonymous tips welcome!)
           placeholder: email, phone, whatever
-          type: email
+          type: text
           validate:
             required: false
 
@@ -68,3 +68,5 @@ form:
 # Help een Handje...
 
 ...kraak een Pandje. For a school project of a friend we are very interested in buildings in Amsterdam that have been empty for a while! Why don't you help us collect some :)
+
+<div class="h-captcha" data-sitekey="3fd97bc9-0f32-4b1f-b237-4182c476dea3"></div>
