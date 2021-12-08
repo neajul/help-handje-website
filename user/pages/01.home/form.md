@@ -34,6 +34,9 @@ form:
           validate:
             required: false
 
+        honey:
+          type: honeypot
+
         my_files:
           type: file
           multiple: true
@@ -51,7 +54,7 @@ form:
           value: Reset
 
     process:
-        captcha: true
+        captcha: false
         email:
             subject: "[Site Contact Form] {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
