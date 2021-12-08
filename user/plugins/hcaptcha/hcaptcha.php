@@ -1,7 +1,7 @@
 <?php
 namespace Grav\Plugin;
 use \Grav\Common\Plugin;
-class ExamplePlugin extends Plugin
+class HcaptchaPlugin extends Plugin
 {
     public static function getSubscribedEvents()
     {
@@ -11,7 +11,7 @@ class ExamplePlugin extends Plugin
     }
     public function onTwigExtensions()
     {
-        require_once(__DIR__ . '/twig/ExampleTwigExtension.php');
-        $this->grav['twig']->twig->addExtension(new ExampleTwigExtension());
+        require_once(__DIR__ . '/twig/HcaptchaTwigExtension.php');
+        $this->grav['twig']->twig->addExtension(new HcaptchaTwigExtension());
     }
 }

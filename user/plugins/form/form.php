@@ -439,6 +439,20 @@ class FormPlugin extends Plugin
         $this->process($form);
 
         switch ($action) {
+            // case 'hCaptcha':
+            //     // If captcha validation fails, stop the form processing.
+            //     if ($validation_fails) {
+            //         $message = "Please solve the captcha!";
+            //
+            //         $this->grav->fireEvent('onFormValidationError', new Event([
+            //             'form' => $form,
+            //             'message' => $message
+            //         ]));
+            //
+            //         $event->stopPropagation();
+            //
+            //         return;
+            //     }
             case 'captcha':
 
                 $captcha_config = $this->config->get('plugins.form.recaptcha');
